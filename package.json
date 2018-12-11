@@ -1,0 +1,34 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "### Purpose This repository is to practice data structures, along with test driven development using Jest.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaboyatyuk/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaboyatyuk/data-structures/issues"
+  },
+  "homepage": "https://github.com/annaboyatyuk/data-structures#readme",
+  "dependencies": {
+    "eslint": "^5.10.0",
+    "jest-cli": "^23.6.0"
+  },
+  "devDependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-register": "^6.26.0",
+    "jest": "^23.6.0"
+  }
+}
